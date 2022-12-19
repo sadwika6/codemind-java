@@ -6,21 +6,14 @@ class sample
         int n;
         Scanner c=new Scanner(System.in);
         n=c.nextInt();
-        for(int i=0;i<n;i++)
+        for(int i=1;i<=n;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=n;j>=1;j--)
             {
-                if(i==j)
-                {
-                    System.out.print('0');
-                }
-                else
-                {
-                    System.out.print('x');
-                }
+                System.out.print(j+" ");
             }
-            System.out.print("
-");
+            System.out.print('
+');
         }
     }
 }
